@@ -1,0 +1,68 @@
+main{
+    width: 100vw;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container_text{
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_text{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.title-contact{
+    color: black;
+    font-size: 50px;
+    margin: 0;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+strong{
+    color: black;
+    font-size: 20px;
+}
+
+ul{
+    margin-inline: 20px;
+    margin-block:20px ;
+    color:  hsla(352.82608696,80%,54.90196078%,1);
+   
+}
+
+li{
+    margin-inline: 20px;
+    margin-block:20px ;
+    color:  black;
+}
+
+.form-container{
+    width: 72%;
+    display: flex;
+    flex-direction: row ;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.input-label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input{
+    width: 99%;
+    height: 25px;
+}

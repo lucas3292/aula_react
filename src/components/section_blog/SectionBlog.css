@@ -1,0 +1,41 @@
+:root {
+    --default-margin: 50px;
+}
+.container-blog-section{
+    height: 553px;
+    width: 93vw;
+    display: flex;
+}
+.content-blog-section{
+    width: 50%;
+    height: 100%;
+    border: 1px solid beige;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+h1{
+    color: hsla(352.82608696,80%,54.90196078%,1);
+    font-size: 40px;
+    font-weight: bold;
+    margin-inline: var(--default-margin);
+    line-height: 1.7;
+}
+
+p{
+    color: black;
+    font-size: 18px;
+    margin-inline: var(--default-margin);
+    text-align: justify;
+    line-height: 1.7;
+}
+
+time{
+    color: black;
+    font-size: 15px;
+    margin-inline: var(--default-margin);
+}
